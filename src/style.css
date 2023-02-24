@@ -8,3 +8,7 @@ body {
 button {
   font-family: "Rubik", sans-serif;
 }
+
+img:hover {
+  fill: red;
+}

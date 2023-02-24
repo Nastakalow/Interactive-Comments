@@ -3,8 +3,6 @@ import { MyContext } from "../../context/InteractiveComments";
 import Data from "../../data.json";
 import AddComment from "../addComment";
 
-// import salam from "../../../public/images/icon-reply.svg";
-
 function Comment({
   id,
   score,
@@ -114,7 +112,7 @@ function Comment({
             defaultValue={content}
           />
           <button
-            className="order-2 bg-moderate-blue px-8 py-3 text-white uppercase rounded-lg ml-auto"
+            className="order-2 bg-moderate-blue hover:bg-moderate-blue-hover px-8 py-3 text-white uppercase rounded-lg ml-auto"
             onClick={updateComment}
           >
             update

@@ -30,13 +30,13 @@ function Popup() {
         </div>
         <div className="flex justify-between">
           <button
-            className="bg-dark-blue uppercase text-white px-6 py-3 rounded-lg"
+            className="bg-dark-blue hover:bg-dark-blue-hover uppercase text-white px-6 py-3 rounded-lg"
             onClick={closeDeleteConfirm}
           >
             no, cancel
           </button>
           <button
-            className="bg-soft-red uppercase text-white px-6 py-3 rounded-lg"
+            className="bg-soft-red hover:bg-soft-red-hover uppercase text-white px-6 py-3 rounded-lg"
             onClick={deleteComment}
           >
             yes, delete

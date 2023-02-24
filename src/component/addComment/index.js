@@ -35,14 +35,14 @@ function AddComment({ id, image, isReplyBtn }) {
       />
       {isReplyBtn ? (
         <button
-          className="order-3 bg-moderate-blue px-8 py-3 text-white uppercase rounded-lg"
+          className="order-3 bg-moderate-blue hover:bg-moderate-blue-hover px-8 py-3 text-white uppercase rounded-lg"
           onClick={replyComment}
         >
           reply
         </button>
       ) : (
         <button
-          className="order-3 bg-moderate-blue px-8 py-3 text-white uppercase rounded-lg"
+          className="order-3 bg-moderate-blue hover:bg-moderate-blue-hover px-8 py-3 text-white uppercase rounded-lg"
           onClick={addComment}
         >
           send
