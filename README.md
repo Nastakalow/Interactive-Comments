@@ -20,5 +20,5 @@ $ npm start
 
 ## :link: Demo
 
-- <a target="_blank" href="https://interactive-comments-deploy.netlify.app/"> Click Here </a> to see.
-- <a target="_blank" href="https://www.frontendmentor.io/home"> Frontend Mentor </a> challenges help to improve coding skills by building realistic projects. Thanks a lot Frontend Mentor. ❤
+- <a target="_blank" href="https://interactive-comments-deploy.netlify.app/"> Click Here </a> to see a demo of the app.
+- <a target="_blank" href="https://www.frontendmentor.io/"> Frontend Mentor </a> challenges help to improve coding skills by building realistic projects. Thanks a lot Frontend Mentor. ❤
