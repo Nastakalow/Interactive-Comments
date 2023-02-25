@@ -14,11 +14,15 @@ function Comment({
   editabled,
 }) {
   const [state, dispatch] = useContext(MyContext);
-
+  let sortReplies;
   const CURRENT_USER = "juliusomo";
   const { currentUser } = Data;
   let button = null;
   const inpRef = useRef();
+
+  if (replies) {
+    sortReplies = [...replies]?.sort((a, b) => b.score - a.score);
+  }
 
   const setReplyInput = () => {
     dispatch({
@@ -156,8 +160,8 @@ function Comment({
         {button}
       </div>
       <div className="w-[80%] max-sm:w-full ml-auto border-l-2 pl-4 border-light-gray">
-        {replies?.length
-          ? replies?.map((item) => <Comment key={item?.id} {...item} />)
+        {sortReplies?.length
+          ? sortReplies?.map((item) => <Comment key={item?.id} {...item} />)
           : ""}
       </div>
       {state.isReply[id] && (
